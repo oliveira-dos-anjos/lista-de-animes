@@ -59,8 +59,7 @@ def home():
     # Renderiza o template HTML e passa a lista de animes como contexto
     return render_template('index.html', lista_animes=lista_animes)
 
-    # Retorna uma mensagem ou redireciona para outra página
-    return "Lista de animes exibida no console."
+
 
 # Inicia o aplicativo Flask
 if __name__ == "__main__":
